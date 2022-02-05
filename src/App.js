@@ -18,7 +18,7 @@ class App extends React.Component {
 
   handleSubmit(event) {
     request
-      .get("http://localhost:8080/greeting")
+      .get("https://jason-test-api.herokuapp.com/greeting")
       .query({name: this.state.value})
       .set('Accept', 'application/json')
       .end((err, resp) => {
