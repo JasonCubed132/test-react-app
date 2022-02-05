@@ -1,0 +1,4 @@
+user: test, pass: test
+user: postgres, pass: simple_pass
+admin encrypt stuff: simple_pass
+
